@@ -646,9 +646,9 @@
        <h3 class="text-primary">Text Alingment</h3>
        <p>mensejajarkan Text</p>
 
-       <p>membuat tulisan rata kiri</p>
-       <p>membuat tulisan rata tengah</p>
-       <p>membuat tulisan rata kanan</p>
+       <p class="text-start">membuat tulisan rata kiri</p>
+       <p class="text-center">membuat tulisan rata tengah</p>
+       <p class="text-end">membuat tulisan rata kanan</p>
 
        <hr><br><br>
 
@@ -656,20 +656,147 @@
       <h3 class="text-primary">Text alingment responsive</h3>
       <p>mensejajarkan text pada layar tertentu</p>
 
-      <p>membuat tulisan rata tengah pada saat ukuran layar SM (small) atau lebih besar</p>
-      <p>membuat tulisan rata tengah pada saat ukuran layar MD MD (medium) atau lebih besar</p>
-      <p>membuat tulisan rata tengah pada saat ukuran layar LG LG (large) atau lebih besar</p>
-      <p>membuat tulisan rata tengah pada saat ukuran layar XL XL (extra-large) atau lebih besar</p>
+      <p class="text-sm-center">membuat tulisan rata tengah pada saat ukuran layar SM (small) atau lebih besar</p>
+      <p class="text-md-center">membuat tulisan rata tengah pada saat ukuran layar MD MD (medium) atau lebih besar</p>
+      <p class="text-lg-center">membuat tulisan rata tengah pada saat ukuran layar LG LG (large) atau lebih besar</p>
+      <p class="text-xl-center">membuat tulisan rata tengah pada saat ukuran layar XL XL (extra-large) atau lebih besar</p>
 
       <hr><br><br>
 
       <!-- 3. Text Wrap -->
       <h3 class="text-primary">Text wrapping dan overflow</h3>
       <p>membuat text sesuai dengan pembungkusnya</p>
-      <div>
-        
+      <div class="text-badge bg-primary text-wrap" style="width: 120px;">
+        text ini akan menyesuaikan dengan pembungkusnya
       </div>
+      <br>
+
+      <hr><br><br>
+      <!-- 4. Line Height -->
+      <h3 class="text-primary">Line Height</h3>
+      <p>mengatur tinggi line height pada paragraf</p>
+
+      <p class="lh-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. eveniet</p>
+      <p class="lh-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. eveniet</p>
+      <p class="lh-base">Lorem ipsum, dolor sit amet consectetur adipisicing elit. eveniet</p>
+      <p class="lh-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. eveniet</p>
+
      </div>
+
+
+    <!-- Batasan Tutorial Step By Step -->
+
+
+    <div class="container m-5">
+      
+      <h4 class="text-center">Utilitis Bootstrap 5</h4>
+      <h2 class="text-center">Color & Background</h2>
+      <hr>
+
+
+
+      <!-- lest begin -->
+      <!-- 1. background -->
+
+      <h3 class="text-primary">background color</h3>
+      <p>mewarnai background</p>
+
+      <div class="p-3 mb-2 border bg-primary">bg-primary</div>
+      <div class="p-3 mb-2 border bg-secondary">bg-secondary</div>
+      <div class="p-3 mb-2 border bg-success">bg-success</div>
+      <div class="p-3 mb-2 border bg-danger">bg-danger</div>
+      <div class="p-3 mb-2 border bg-warning">bg-warning</div>
+      <div class="p-3 mb-2 border bg-info">bg-info</div>
+      <div class="p-3 mb-2 border bg-light">bg-light</div>
+      <div class="p-3 mb-2 border bg-dark">bg-dark</div>
+      <div class="p-3 mb-2 border bg-body">bg-body</div>
+      <div class="p-3 mb-2 border bg-white">bg-white</div>
+      <div class="p-3 mb-2 border bg-transparent">bg-transparent</div>
+      <hr><br><br>
+
+      <!-- 2. Bacground gradient -->
+      <h3 class="text-primary">Background Gradient</h3>
+      <div class="p-3 mb-2 border bg-primary">bg-primary</div>
+       <div class="p-3 mb-2 border bg-primary bg-gradient" style="height: 300px;">bg-gradient</div>
+       <hr><br><br>
+
+       <!-- 3. Font Color -->
+       <h3 class="text-primary">Font Color</h3>
+       <p>mewarnai text</p>
+
+       <p class="text-primary">text-primary / Biru</p>
+       <p class="text-secondary">text-secondary / Abu-Abu</p>
+       <p class="text-success">text-success / Hijau</p>
+       <p class="text-danger">text-danger / Merah</p>
+       <p class="text-danger">text-warning / Kuning</p>
+       <p class="text-info">text-info / Biru Muda</p>
+       <p class="text-light">text-light / Putih</p>
+       <p class="text-dark">text-dark / Hitam</p>
+       <p class="text-body">text-body / Abu-Abu Tua</p>
+       <p class="text-muted">text-muted / Abu-Abu Muda</p>
+       <p class="text-white">text-white / Putih</p>
+       <p class="text-black-50">text-black-50 / Hitam Opacity 50%</p>
+       <p class="text-white-50">text-white-50 / Putih Opacity 50%</p>
+
+       <!-- Link Color -->
+       <!-- Invisible -->
+
+       <!-- End Session -->
+       <!-- Thank You -->
+
+    </div>
+
+    <!-- Batasan Tutorial Step By Step -->
+
+
+
+    <div class="container m-5">
+      <h4 class="text-center">Utilitis Bootstrap 5</h4>
+      <h2 class="text-center">Display, Fload And Position</h2>
+      <hr>
+
+      <!-- Lest Begin -->
+
+      <h3 class="text-primary">Display</h3>
+      <p>Bagaimana perilaku dari dispaly...?</p>
+      <!-- Div & Span  -> Pengelompokan -->
+      <span>Paulus Sesa</span>
+      <span>Pace Koding</span>
+      <span class="bg-primary">Paulus Tempat Tanggal Lahir Sorong Tgl 20 Bulang 05 Mey Tahun 2000</span>
+      <br>
+      <!-- tinggi dan lebar tidak dapat di atur -->
+      <span class="bg-primary" style="width: 500px;">Creative Academy</span>
+      <span class="bg-success m-5">Creative Academy</span>
+      <span>fnvkvkvbff dvjodvjdjvnvj jddv jdvdvjd djodjvnvbf uuhfbbf dvijfif diehvbf ueffscbd sijsdvbd sijvhdjv</span>
+      <hr>
+
+      <div>Paul</div>
+      <div>Pace Koding</div>
+      <hr>
+      <div class="bg-success" style="width: 100px; height: 100px;">Creative Academy</div>
+      <div class="d-inline-block bg-primary">inline block</div>
+       <div class="d-inline-block bg-primary" style="width: 50px; height: 50px;">Example</div>
+
+       <div class="d-inline">paul</div>
+       <div class="d-inline">paul</div>
+       <div class="d-block">paul</div>
+       <div class="d-block">paul</div>
+
+
+      <br>
+      <br>
+
+       <h3 class="text-primary">Fload</h3>
+      <p>Bagaimana perilaku dari Fload...?</p>
+      <div style="width: 500px"></div>
+      <!-- Div & Span  -> Pengelompokan -->
+      <br>
+       <h3 class="text-primary">Position</h3>
+      <p>Bagaimana perilaku dari Position...?</p>
+      <!-- Div & Span  -> Pengelompokan -->
+    </div>
+
+
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="js/bootstrap.js"></script>
     <script crs="js/popper.min.js"></script>
